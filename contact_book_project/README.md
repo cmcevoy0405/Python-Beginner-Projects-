@@ -1,0 +1,6 @@
+Title: Contact Book
+
+Description:
+This project runs a basic configuration of a contact book. The application starts by prompting the user whether they would like to add a contact, find a contact, view all contacts, update a contact, delete a contact or exit the program.  The user can add a contact by supplying the name, email and phone number of the contact, the user can then find a contact by inputting the contacts name, the program will then return all information on the contact with that name. The user can view all contacts, returning every instance of a dictionary within the list of contacts. The user can delete a contact by inputting the contacts name, this will delete all information related to that contact.
+If no contacts exists in the contact book, a message will be displayed prompting the user to input contacts into the book. Additionally if the user either wants to find, update or delete a contact and they type in an unrecognized name, they will be displayed a message saying that the contact is not found.
+Future improvements to this code would involve implementing regular expressions to verify all user inputs and avoid incorrect information being stored in the contact book.
